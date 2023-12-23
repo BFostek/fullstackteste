@@ -1,4 +1,4 @@
-from parser_service.parsers.sections.consumption_history_parser import ConsumptionHistoryParser
+from parsers.sections.consumption_history_parser import ConsumptionHistoryParser
 from parsers.sections.invoiced_amounts_parser import InvoicedAmountsParser
 from parsers.sections.nfe_info_parser import NfeInfoParser
 
