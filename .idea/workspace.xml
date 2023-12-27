@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2980ce5c-a57e-4f6a-9612-cd50c7ef8257" name="Changes" comment="Delete outdated parsers and related files">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser_service/Dockerfile" afterDir="false" />
+    <list default="true" id="2980ce5c-a57e-4f6a-9612-cd50c7ef8257" name="Changes" comment="Update workspace settings and VCS mappings">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/teste.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api" beforeDir="false" afterPath="$PROJECT_DIR$/api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_service/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser_service/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parser_service/parsers/ElectricityBillParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser_service/parsers/ElectricityBillParser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_service/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parser_service/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +34,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -42,8 +53,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Docker.api/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.nestapi: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;Docker.docker-compose.yml.parser: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.redis: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;Docker.parser_service/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.scratch_1 | #1.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_ConsumptionHistoryParser.TestConsumptionHistoryParser.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_ConsumptionHistoryParser.TestConsumptionHistoryParser.test_parse.executor&quot;: &quot;Run&quot;,
     &quot;Python.ElectricityBillParser.executor&quot;: &quot;Run&quot;,
@@ -51,70 +67,38 @@
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
     &quot;last.edited.regexp&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/brenomartins/Dev/python/teste&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/brenomartins/Dev/python/teste/parser_service&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start:dev.executor&quot;: &quot;Run&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/brenomartins/Dev/python/teste/frontend/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;HTTP Request&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/src/file-processing" />
       <recent name="$PROJECT_DIR$/parser_service" />
       <recent name="$PROJECT_DIR$/parsers/sections" />
       <recent name="$PROJECT_DIR$/parsers/sections/" />
     </key>
   </component>
   <component name="RunManager" selected="Docker.docker-compose.yml.parser: Compose Deployment">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="teste" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parser_service" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parser_service/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="teste" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="scratch_1 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
@@ -126,6 +110,28 @@
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
       <deployment type="dockerfile">
         <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.nestapi: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="nestapi" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
       </deployment>
       <method v="2" />
     </configuration>
@@ -142,47 +148,46 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="parser_service/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
+    <configuration name="docker-compose.yml.redis: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
         <settings>
-          <option name="containerName" value="" />
-          <option name="sourceFilePath" value="parser_service/Dockerfile" />
+          <option name="services">
+            <list>
+              <option value="redis" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_ConsumptionHistoryParser.TestConsumptionHistoryParser.test_parse" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="teste" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parsers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ConsumptionHistoryParser.TestConsumptionHistoryParser.test_parse&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    <configuration name="start:dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/api/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml.redis: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.nestapi: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.parser: Compose Deployment" />
+      <item itemvalue="HTTP Request.scratch_1 | #1" />
+      <item itemvalue="npm.start:dev" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.scratch_1 | #1" />
         <item itemvalue="Docker.docker-compose.yml.parser: Compose Deployment" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Docker.parser_service/Dockerfile" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.Python tests for test_ConsumptionHistoryParser.TestConsumptionHistoryParser.test_parse" />
+        <item itemvalue="Docker.docker-compose.yml.nestapi: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.redis: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -200,6 +205,13 @@
       <workItem from="1703334688087" duration="1126000" />
       <workItem from="1703335824186" duration="620000" />
       <workItem from="1703336694941" duration="268000" />
+      <workItem from="1703537202693" duration="3303000" />
+      <workItem from="1703605174486" duration="652000" />
+      <workItem from="1703613990342" duration="4418000" />
+      <workItem from="1703623180739" duration="2317000" />
+      <workItem from="1703625533863" duration="327000" />
+      <workItem from="1703634615627" duration="103000" />
+      <workItem from="1703634734737" duration="851000" />
     </task>
     <task id="LOCAL-00001" summary="File refactor">
       <option name="closed" value="true" />
@@ -249,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703335344947</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update workspace settings and VCS mappings">
+      <option name="closed" value="true" />
+      <created>1703537249641</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703537249641</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +280,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -273,18 +310,9 @@
     <MESSAGE value="Add .gitignore to parser_service directory" />
     <MESSAGE value="Remove unused text files from output directory" />
     <MESSAGE value="Delete outdated parsers and related files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete outdated parsers and related files" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="The above commit message is not correct based on the given diffs. The diffs don't show that any parsers or files were deleted. They show changes in workspace settings and VCS mapping. A more appropriate commit message could be:&#10;&#10;Update workspace settings and VCS mappings&#10;&#10;Updated workspace.xml to use quoted strings for parsing options and added deployment settings for docker-compose.yml. Further, added a new VCS mapping for the 'api' directory in vcs.xml." />
+    <MESSAGE value="Update workspace settings and VCS mappings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace settings and VCS mappings" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/teste$.coverage" NAME=" Coverage Results" MODIFIED="1703332491470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsers" />
