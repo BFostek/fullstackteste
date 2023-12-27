@@ -8,6 +8,8 @@ services:
       - '5000:5000'
     volumes:
       - shared_data:/app/invoices
+    depends_on:
+      - redis
 
   redis:
     image: 'redis:alpine'
@@ -24,6 +26,18 @@ services:
       - '3000:3000'
     volumes:
       - shared_data:/app/invoices
+    depends_on:
+      - redis
+
+  postgres:
+    image: 'postgres:latest'
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_PASSWORD: 'postgres_pw'
+    volumes:
+      - database:/var/lib/postgresql/data
 
 volumes:
   shared_data:
+  database:

@@ -4,21 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2980ce5c-a57e-4f6a-9612-cd50c7ef8257" name="Changes" comment="Update workspace settings and VCS mappings">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/teste.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/Dockerfile" afterDir="false" />
+    <list default="true" id="2980ce5c-a57e-4f6a-9612-cd50c7ef8257" name="Changes" comment="Add FileProcessing and FileUpload modules with Redis service">
+      <change afterPath="$PROJECT_DIR$/api/src/file/file-processing/file-processing.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/file/file-upload/file-upload.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_service/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_service/tests/test_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api" beforeDir="false" afterPath="$PROJECT_DIR$/api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/app.controller.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/app.controller.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/app.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/app.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/file-processing/file-processing.controller.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/file/file-processing/file-processing.controller.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/file-processing/file-processing.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/file-processing/file-processing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/file/file-processing/file-processing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/file-processing/file-processing.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/file/file-processing/file-processing.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/file-processing/file-processing.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/file/file-processing/file-processing.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/file-upload/file-upload.controller.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/file/file-upload/file-upload.controller.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/file-upload/file-upload.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/file/file-upload/file-upload.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/file-upload/file-upload.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/file-upload/file-upload.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/file/file-upload/file-upload.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/file-upload/file-upload.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/file/file-upload/file-upload.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parser_service/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser_service/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser_service/parsers/ElectricityBillParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser_service/parsers/ElectricityBillParser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser_service/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parser_service/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +45,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,7 +83,7 @@
     &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
     &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
     &quot;last.edited.regexp&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/brenomartins/Dev/python/teste/parser_service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/brenomartins/Dev/python/teste/api&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -97,7 +108,7 @@
       <recent name="$PROJECT_DIR$/parsers/sections/" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml.parser: Compose Deployment">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="scratch_1 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -181,11 +192,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.scratch_1 | #1" />
-        <item itemvalue="Docker.docker-compose.yml.parser: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml.nestapi: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml.redis: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="HTTP Request.scratch_1 | #1" />
+        <item itemvalue="Docker.docker-compose.yml.nestapi: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.parser: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.redis: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +222,13 @@
       <workItem from="1703623180739" duration="2317000" />
       <workItem from="1703625533863" duration="327000" />
       <workItem from="1703634615627" duration="103000" />
-      <workItem from="1703634734737" duration="851000" />
+      <workItem from="1703634734737" duration="1152000" />
+      <workItem from="1703683089855" duration="895000" />
+      <workItem from="1703684905933" duration="2674000" />
+      <workItem from="1703694409861" duration="38000" />
+      <workItem from="1703694635116" duration="115000" />
+      <workItem from="1703696857878" duration="950000" />
+      <workItem from="1703708226794" duration="691000" />
     </task>
     <task id="LOCAL-00001" summary="File refactor">
       <option name="closed" value="true" />
@@ -269,7 +286,39 @@
       <option name="project" value="LOCAL" />
       <updated>1703537249641</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update workspace settings and VCS mappings">
+      <option name="closed" value="true" />
+      <created>1703635666737</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703635666737</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add nestapi service to docker-compose.yml">
+      <option name="closed" value="true" />
+      <created>1703635692968</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703635692968</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Integrate Redis service and enhance parser service">
+      <option name="closed" value="true" />
+      <created>1703635712692</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703635712692</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add FileProcessing and FileUpload modules with Redis service">
+      <option name="closed" value="true" />
+      <created>1703635754434</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703635754434</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,8 +360,12 @@
     <MESSAGE value="Remove unused text files from output directory" />
     <MESSAGE value="Delete outdated parsers and related files" />
     <MESSAGE value="The above commit message is not correct based on the given diffs. The diffs don't show that any parsers or files were deleted. They show changes in workspace settings and VCS mapping. A more appropriate commit message could be:&#10;&#10;Update workspace settings and VCS mappings&#10;&#10;Updated workspace.xml to use quoted strings for parsing options and added deployment settings for docker-compose.yml. Further, added a new VCS mapping for the 'api' directory in vcs.xml." />
+    <MESSAGE value="Updated the workspace settings and the Version Control System (VCS) mappings. The changes include two components: first, improvements to the workspace settings to optimize workflow performance, and second, adjustments to the VCS mappings to ensure accurate tracking and managing of different versions of the project." />
     <MESSAGE value="Update workspace settings and VCS mappings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace settings and VCS mappings" />
+    <MESSAGE value="Add nestapi service to docker-compose.yml" />
+    <MESSAGE value="Integrate Redis service and enhance parser service" />
+    <MESSAGE value="Add FileProcessing and FileUpload modules with Redis service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add FileProcessing and FileUpload modules with Redis service" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/teste$.coverage" NAME=" Coverage Results" MODIFIED="1703332491470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsers" />

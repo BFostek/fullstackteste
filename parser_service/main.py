@@ -16,38 +16,74 @@ class ComplexEncoder(json.JSONEncoder):
         return super().default(obj)
 
 
+def convert_to_json(file):
+    return json.dumps(file, cls=ComplexEncoder)
+
+
 def send_file_processed(redis_client, result):
-    redis_client.publish('file-processed', json.dumps(result, cls=ComplexEncoder))
+    logging.info(f"Sending file")
+    logging.info(f"Result: {convert_to_json(result)}")
+    redis_client.publish('file-processed', convert_to_json(result))
 
 
 def process_file(file_path):
     try:
         parser = ElectricityBillParser(pdf_to_array(file_path))
         result = parser.parse()
-        return result
+
+        return {
+            "success": True,
+            "content": {
+                "file": file_path,
+                "result": result
+            }
+        }
 
     except FileNotFoundError:
         logging.error(f'File not found: {file_path}')
+        return {
+            "success": False,
+            "content": None,
+            "reason": f'File not found: {file_path}'
+        }
     except Exception as e:
         logging.error(f'Error processing file: {file_path}, {e}')
+        return {
+            "success": False,
+            "content": None,
+            "reason": e
+        }
+
+
+def connect_redis():
+    redis_client = redis.Redis(host='redis', port=6379)
+    for _ in range(3):  # try three times
+        try:
+            redis_client.ping()
+            break
+        except redis.exceptions.ConnectionError:
+            logging.error('Redis client could not connect.')
+            continue
+    logging.info(f'Redis client connected: {redis_client}')
+    return redis_client
+
+
+def subscribe_to_channel(redis_client, channel_name):
+    pubsub = redis_client.pubsub()
+    pubsub.subscribe(channel_name)
+    return pubsub
 
 
 def main():
-    directory = '/app/invoices/'
-    redis_client = redis.Redis(host='redis', port=6379)
-    logging.info(f'Redis client connected: {redis_client}')
-    pubsub = redis_client.pubsub()
-    pubsub.subscribe('process-file')
-
+    redis_client = connect_redis()
+    pubsub = subscribe_to_channel(redis_client, 'process-file')
     for event in pubsub.listen():
         if event['type'] == 'message':
             data = json.loads(event['data'].decode('utf-8'))
             file_name = data['data']['fileName']
             logging.info(f'Received file name from process_file event: {file_name}')
-            file = process_file(file_name)
-            if not file:
-                return
-            send_file_processed(redis_client, file)
+            processed_file = process_file(file_name)
+            send_file_processed(redis_client, processed_file)
 
 
 if __name__ == "__main__":
