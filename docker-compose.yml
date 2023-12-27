@@ -16,5 +16,14 @@ services:
     volumes:
       - shared_data:/app/invoices
 
+  nestapi:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    volumes:
+      - shared_data:/app/invoices
+
 volumes:
   shared_data:
