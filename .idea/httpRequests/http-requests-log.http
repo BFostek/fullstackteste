@@ -1,0 +1,324 @@
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36127
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3001165684-10-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T113217.200.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36127
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3001165684-10-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T113054.200.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36127
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3001165684-10-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T112749.200.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36127
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3001165684-10-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T112740.409.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36127
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3001165684-10-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T112502.200.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36127
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3001165684-10-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T112145.200.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36127
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3001165684-10-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T111909.200.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36382
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3000055479-08-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T111645.200.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36382
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3000055479-11-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T111632.409.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36382
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3000055479-11-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T110731.200.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36382
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3000055479-11-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T110220.200.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36127
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3001117181-06-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T110209.409.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36127
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3001117181-06-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T103240.200.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36127
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3001117181-06-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T102827.200.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36382
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3000055479-11-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T102818.409.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36382
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3000055479-11-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-27T102758.409.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 36382
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3000055479-11-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-26T211032.200.json
+
+###
+
+POST http://localhost:3000/file-upload
+Content-Type: multipart/form-data; boundary=---BOUNDARY
+Content-Length: 33577
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+-----BOUNDARY
+Content-Disposition: form-data; name="file"; filename="filename.pdf"
+Content-Type: application/pdf
+
+< /home/brenomartins/Documents/FATURAS/faturas/3001117181-11-2023.pdf
+-----BOUNDARY--
+
+<> 2023-12-26T211023.409.json
+
+###
+

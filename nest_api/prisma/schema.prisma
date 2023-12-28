@@ -1,0 +1,66 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model File {
+  id      String     @id @default(uuid()) @map("_id")
+  path    String     @unique
+  status  FileStatus @default(PROCESSING)
+  Invoice Invoice[]
+}
+
+model NfeInfos {
+  id                   Int                  @id @default(autoincrement())
+  dueDate              DateTime
+  totalAmount          Float
+  nfCode               String
+  clientNumber         String
+  installationNumber   String
+  referenceMonth       String
+  issueDate            DateTime
+  accessKey            String
+  invoice              Invoice[]
+  consumptionHistories ConsumptionHistory[]
+}
+
+model ConsumptionHistory {
+  id               Int      @id @default(autoincrement())
+  date             DateTime
+  totalConsumption Float
+  meanConsumption  Float
+  totalDays        Int
+  nfeInfosId       Int
+  nfeInfos         NfeInfos @relation(fields: [nfeInfosId], references: [id])
+}
+
+model InvoiceItem {
+  id        Int     @id @default(autoincrement())
+  name      String
+  unity     String
+  amount    Float
+  unitPrice Float
+  value     Float
+  invoiceId Int
+  invoice   Invoice @relation(fields: [invoiceId], references: [id])
+}
+
+model Invoice {
+  id           Int           @id @default(autoincrement())
+  invoiceItems InvoiceItem[]
+  nfeInfosId   Int
+  nfeInfos     NfeInfos      @relation(fields: [nfeInfosId], references: [id])
+  fileId       String
+  file         File          @relation(fields: [fileId], references: [id])
+}
+
+enum FileStatus {
+  PROCESSING
+  PROCESSED
+  ERROR
+}

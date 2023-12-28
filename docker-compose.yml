@@ -20,7 +20,7 @@ services:
 
   nestapi:
     build:
-      context: ./api
+      context: ./nest_api
       dockerfile: Dockerfile
     ports:
       - '3000:3000'
