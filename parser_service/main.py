@@ -33,8 +33,9 @@ def process_file(file_path):
 
         return {
             "success": True,
+            "file": file_path,
             "content": {
-                "file": file_path,
+                "type": "invoices",
                 "result": result
             }
         }
@@ -43,6 +44,7 @@ def process_file(file_path):
         logging.error(f'File not found: {file_path}')
         return {
             "success": False,
+            "file": file_path,
             "content": None,
             "reason": f'File not found: {file_path}'
         }
@@ -50,6 +52,7 @@ def process_file(file_path):
         logging.error(f'Error processing file: {file_path}, {e}')
         return {
             "success": False,
+            "file": file_path,
             "content": None,
             "reason": e
         }
